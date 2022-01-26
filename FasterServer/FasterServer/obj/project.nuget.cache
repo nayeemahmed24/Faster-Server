@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "uUgUv1w2fYjG/9gtTTcb3/RuHZuWC472JOKSdCwvlJM4Ci46VUhGfa+sTGIRUDe6UeYlnpricstqfK2RmeOi/Q==",
+  "success": true,
+  "projectFilePath": "D:\\Practice Redis and Faster\\FasterServer\\FasterServer\\FasterServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\commandlineparser\\2.8.0\\commandlineparser.2.8.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.faster.core\\1.9.10\\microsoft.faster.core.1.9.10.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.faster.server\\1.9.10\\microsoft.faster.server.1.9.10.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.interactive.async\\5.0.0\\system.interactive.async.5.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.linq.async\\5.0.0\\system.linq.async.5.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

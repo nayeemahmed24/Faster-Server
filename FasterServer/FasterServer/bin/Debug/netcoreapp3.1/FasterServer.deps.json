@@ -1,0 +1,133 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FasterServer/1.0.0": {
+        "dependencies": {
+          "CommandLineParser": "2.8.0",
+          "Microsoft.FASTER.Core": "1.9.10",
+          "Microsoft.FASTER.Server": "1.9.10"
+        },
+        "runtime": {
+          "FasterServer.dll": {}
+        }
+      },
+      "CommandLineParser/2.8.0": {
+        "runtime": {
+          "lib/netstandard2.0/CommandLine.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.0.0"
+          }
+        }
+      },
+      "Microsoft.FASTER.Core/1.9.10": {
+        "dependencies": {
+          "System.Interactive.Async": "5.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FASTER.core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.FASTER.Server/1.9.10": {
+        "dependencies": {
+          "Microsoft.FASTER.Core": "1.9.10",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FASTER.common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.1/FASTER.server.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Interactive.Async/5.0.0": {
+        "dependencies": {
+          "System.Linq.Async": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/System.Interactive.Async.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.1"
+          }
+        }
+      },
+      "System.Linq.Async/5.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/System.Linq.Async.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.1"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FasterServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommandLineParser/2.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eco2HlKQBY4Joz9odHigzGpVzv6pjsXnY5lziioMveQxr+i2Z7xYcIOMeZTgYiqnMtMAbXMXsVhrNfWO5vJS8Q==",
+      "path": "commandlineparser/2.8.0",
+      "hashPath": "commandlineparser.2.8.0.nupkg.sha512"
+    },
+    "Microsoft.FASTER.Core/1.9.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SD0hu1Qx44NBe6NVgNejYnHIeSaoLZ6oiovPhYGFq74jDvYTK2wI8HdHcWaj3+0BGqY87UGOdT4wNmGWt3rRnw==",
+      "path": "microsoft.faster.core/1.9.10",
+      "hashPath": "microsoft.faster.core.1.9.10.nupkg.sha512"
+    },
+    "Microsoft.FASTER.Server/1.9.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eOYUsev7J5Gt+sL+htGlUIRgM5zg+umilj3PLX4k+xi97uwzjU7/oM9cFazOieikjMTarKossxN7RHxPak7eQA==",
+      "path": "microsoft.faster.server/1.9.10",
+      "hashPath": "microsoft.faster.server.1.9.10.nupkg.sha512"
+    },
+    "System.Interactive.Async/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QaqhQVDiULcu4vm6o89+iP329HcK44cETHOYgy/jfEjtzeFy0ZxmuM7nel9ocjnKxEM4yh1mli7hgh8Q9o+/Iw==",
+      "path": "system.interactive.async/5.0.0",
+      "hashPath": "system.interactive.async.5.0.0.nupkg.sha512"
+    },
+    "System.Linq.Async/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cPtIuuH8TIjVHSi2ewwReWGW1PfChPE0LxPIDlfwVcLuTM9GANFTXiMB7k3aC4sk3f0cQU25LNKzx+jZMxijqw==",
+      "path": "system.linq.async/5.0.0",
+      "hashPath": "system.linq.async.5.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    }
+  }
+}

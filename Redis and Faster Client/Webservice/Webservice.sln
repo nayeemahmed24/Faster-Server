@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webservice", "Webservice\Webservice.csproj", "{F94BDFA6-62EF-4D28-B727-EF436AD6083F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheStore", "CacheStore\CacheStore.csproj", "{9CAB5F08-4B10-4DA4-A67D-21D520EDFA57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F94BDFA6-62EF-4D28-B727-EF436AD6083F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94BDFA6-62EF-4D28-B727-EF436AD6083F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94BDFA6-62EF-4D28-B727-EF436AD6083F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94BDFA6-62EF-4D28-B727-EF436AD6083F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CAB5F08-4B10-4DA4-A67D-21D520EDFA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CAB5F08-4B10-4DA4-A67D-21D520EDFA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CAB5F08-4B10-4DA4-A67D-21D520EDFA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CAB5F08-4B10-4DA4-A67D-21D520EDFA57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25AD4427-9EB4-4160-98EE-074DE895FEAC}
+	EndGlobalSection
+EndGlobal
